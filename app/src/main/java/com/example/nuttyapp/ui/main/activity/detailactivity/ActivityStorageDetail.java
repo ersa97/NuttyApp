@@ -1,13 +1,14 @@
 package com.example.nuttyapp.ui.main.activity.detailactivity;
 
 public class ActivityStorageDetail {
-    String id;
-    String name;
-    String locations;
-    String measurement;
-    double stock;
+    private String id;
+    private String name;
+    private String location;
+    private String measurement;
+    private double stock;
+    private double amount;
 
-    public ActivityStorageDetail(){
+    public ActivityStorageDetail() {
 
     }
 
@@ -27,12 +28,12 @@ public class ActivityStorageDetail {
         this.name = name;
     }
 
-    public String getLocations() {
-        return locations;
+    public String getLocation() {
+        return location;
     }
 
-    public void setLocations(String locations) {
-        this.locations = locations;
+    public void setLocation(String location) {
+        this.location = location;
     }
 
     public String getMeasurement() {
@@ -47,15 +48,24 @@ public class ActivityStorageDetail {
         return stock;
     }
 
-    public void setStock(Integer stock) {
+    public void setStock(double stock) {
         this.stock = stock;
     }
 
-    public ActivityStorageDetail(String id, String name, String locations, String measurement, double stock) {
+    public double getAmount() {
+        return amount;
+    }
+
+    public void setAmount(double amount) {
+        this.amount = amount;
+    }
+
+    public ActivityStorageDetail(String id, String name, String location, String measurement, double stock) {
         this.id = id;
         this.name = name;
-        this.locations = locations;
+        this.location = location;
         this.measurement = measurement;
         this.stock = stock;
+        this.amount = 0;
     }
 }

@@ -3,7 +3,7 @@ package com.example.nuttyapp.ui.main.storage;
 public class Storage {
     String id;
     String name;
-    String locations;
+    String location;
     String measurement;
     double stock;
 
@@ -11,10 +11,10 @@ public class Storage {
 
     }
 
-    public Storage(String name, String locations, String measurement, double stock) {
+    public Storage(String name, String location, String measurement, double stock) {
         this.id = id;
         this.name = name;
-        this.locations = locations;
+        this.location = location;
         this.measurement = measurement;
         this.stock = stock;
     }
@@ -35,12 +35,12 @@ public class Storage {
         this.name = name;
     }
 
-    public String getLocations() {
-        return locations;
+    public String getLocation() {
+        return location;
     }
 
-    public void setLocations(String locations) {
-        this.locations = locations;
+    public void setLocation(String location) {
+        this.location = location;
     }
 
     public String getMeasurement() {

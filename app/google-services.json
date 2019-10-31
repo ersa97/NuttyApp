@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "143139040814-7lc9tq8lhoeueti5rbeej71b4ngrgbbt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nuttyapp",
+            "certificate_hash": "be01eca8824bac113f1695584b01ad90d062fbcd"
+          }
+        },
+        {
           "client_id": "143139040814-mk6kfl4b46ipr1a47ok4d0vet1rcf3no.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

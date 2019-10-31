@@ -55,7 +55,7 @@ public class StorageAdapter extends FirestoreRecyclerAdapter <Storage, StorageAd
 
         public void bind(final Storage storage){
             textViewName.setText(storage.getName());
-            textViewLocation.setText(storage.getLocations());
+            textViewLocation.setText(storage.getLocation());
             textViewStock.setText(String.valueOf(storage.getStock()));
             textViewMeasurement.setText(storage.getMeasurement());
         }
