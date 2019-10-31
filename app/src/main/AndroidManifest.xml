@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nuttyapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.main.activity.detailactivity.DetailActivity"></activity>
+        <activity android:name=".ui.main.storage.MainStorage" />
+        <activity android:name=".ui.setting.AccountSetting" />
+        <activity android:name=".ui.resetpassword.ResetPassword" />
+        <activity android:name=".ui.welcome.WelcomeActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".ui.signup.SignUpActivity" />
+        <activity android:name=".ui.login.LoginActivity" />
+        <activity android:name=".ui.main.activity.MainActivity">
+        </activity>
+    </application>
+
+</manifest>

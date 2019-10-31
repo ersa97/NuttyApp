@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "143139040814",
+    "firebase_url": "https://nuttyapp-c8479.firebaseio.com",
+    "project_id": "nuttyapp-c8479",
+    "storage_bucket": "nuttyapp-c8479.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143139040814:android:71ab0069eec9786cd6f9bf",
+        "android_client_info": {
+          "package_name": "com.example.nuttyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143139040814-mk6kfl4b46ipr1a47ok4d0vet1rcf3no.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nuttyapp",
+            "certificate_hash": "8d6e61bad6bc0af46f5c719f2e302f839a594dc6"
+          }
+        },
+        {
+          "client_id": "143139040814-bqo2o8u8k1n035upbqstsdo37a9j05jr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWA-2tS_YDzmhvcrkQfum6eboAUCy26zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143139040814-bqo2o8u8k1n035upbqstsdo37a9j05jr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
